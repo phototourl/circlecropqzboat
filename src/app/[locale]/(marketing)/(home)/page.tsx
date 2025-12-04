@@ -69,9 +69,7 @@ export default async function HomePage(props: HomePageProps) {
               </p>
             </div>
 
-            <div className="rounded-2xl border bg-card/80 p-4 shadow-lg shadow-primary/10 backdrop-blur sm:p-6">
-              <CircleCropTool showHeading={false} />
-            </div>
+            <CircleCropTool showHeading={false} />
           </div>
         </section>
 
