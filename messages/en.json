@@ -784,10 +784,15 @@
     "description": "Free online round photo cropper – create perfect circular images in seconds.",
     "hero": {
       "title": "Crop any image into a perfect circle in seconds",
-      "description": "Circle Crop Image is a free online tool to transform rectangular photos into clean, circular PNGs with transparent backgrounds – perfect for avatars, social media, and design projects.",
+      "description": "Circle Crop Image is a free online tool to transform rectangular photos into clean, circular images with transparent backgrounds – perfect for avatars, social media, and design projects.",
       "introduction": "Image to URL Converter",
       "primary": "Try it now",
       "secondary": "View examples"
+    },
+    "toolSection": {
+      "label": "Circle Crop Image Tool",
+      "title": "Create perfect circular images in seconds",
+      "description": "Upload a picture, fine‑tune the zoom level, and download a crisp circular PNG image with transparent background in just a few seconds — no signup, no watermark."
     },
     "logocloud": {
       "title": "Your favorite companies are our partners"
@@ -1089,5 +1094,30 @@
   "AIAudioPage": {
     "title": "AI Audio",
     "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "CircleCropTool": {
+    "heading": {
+      "title": "Circle Crop Image – Perfect Round Photos in Seconds",
+      "description": "Upload any picture, adjust the zoom, and download a high-quality circular PNG image with transparent background. All processing happens instantly in your browser."
+    },
+    "upload": {
+      "label": "Upload image",
+      "description": "Supports JPG / PNG / WEBP / GIF. All images are downloaded as PNG with transparent background. Images are processed locally in your browser and never leave your device."
+    },
+    "zoom": {
+      "label": "Zoom"
+    },
+    "download": {
+      "label": "Download Circle Image",
+      "processing": "Processing…"
+    },
+    "preview": {
+      "label": "Preview",
+      "placeholder": "Upload an image to see a live circular preview here."
+    },
+    "errors": {
+      "invalidFile": "Please select an image file",
+      "noImage": "Please upload an image first"
+    }
   }
 }

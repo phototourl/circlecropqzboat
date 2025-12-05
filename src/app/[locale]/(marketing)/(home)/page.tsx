@@ -58,14 +58,13 @@ export default async function HomePage(props: HomePageProps) {
           <div className="mx-auto flex max-w-5xl flex-col gap-8 px-4 py-16 sm:px-6 lg:px-8">
             <div className="space-y-3 text-center">
               <p className="text-xs font-medium uppercase tracking-[0.2em] text-primary/80">
-                Circle Crop Image Tool
+                {t('toolSection.label')}
               </p>
               <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
-                Create perfect circular images in seconds
+                {t('toolSection.title')}
               </h2>
               <p className="mx-auto max-w-2xl text-sm text-muted-foreground sm:text-base">
-                Upload a picture, fine‑tune the zoom level, and download a crisp circular PNG avatar
-                in just a few seconds — no signup, no watermark.
+                {t('toolSection.description')}
               </p>
             </div>
 

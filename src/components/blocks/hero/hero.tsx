@@ -95,15 +95,15 @@ export default function HeroSection() {
               <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-center gap-8 px-4 sm:flex-row sm:gap-16 lg:gap-20">
                 {/* Example 1 */}
                 <div className="flex flex-col items-center gap-4">
-                  <div className="flex items-center justify-center gap-6">
+                  <div className="flex items-center justify-center gap-4 sm:gap-6">
                     <img
                       src="/images/list/post-1.png"
                       alt="Example 1 original"
-                      className="h-[280px] w-[280px] object-contain transition-transform hover:scale-105 cursor-pointer"
+                      className="h-[200px] w-[200px] sm:h-[280px] sm:w-[280px] object-contain transition-transform hover:scale-105 cursor-pointer"
                       style={{ display: 'block' }}
                     />
-                    <ArrowRight className="size-8 text-muted-foreground" />
-                    <div className="relative h-[280px] w-[280px] aspect-square flex-shrink-0 overflow-hidden rounded-full border-2 border-border shadow-lg bg-background transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:border-primary/50 cursor-pointer">
+                    <ArrowRight className="size-6 sm:size-8 text-muted-foreground flex-shrink-0" />
+                    <div className="relative h-[200px] w-[200px] sm:h-[280px] sm:w-[280px] aspect-square flex-shrink-0 overflow-hidden rounded-full border-2 border-border shadow-lg bg-background transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:border-primary/50 cursor-pointer">
                       <img
                         src="/images/list/post-1-crop.png"
                         alt="Example 1 cropped"
@@ -116,15 +116,15 @@ export default function HeroSection() {
 
                 {/* Example 2 */}
                 <div className="flex flex-col items-center gap-4">
-                  <div className="flex items-center justify-center gap-6">
+                  <div className="flex items-center justify-center gap-4 sm:gap-6">
                     <img
                       src="/images/list/post-2.png"
                       alt="Example 2 original"
-                      className="h-[280px] w-[280px] object-contain transition-transform hover:scale-105 cursor-pointer"
+                      className="h-[200px] w-[200px] sm:h-[280px] sm:w-[280px] object-contain transition-transform hover:scale-105 cursor-pointer"
                       style={{ display: 'block' }}
                     />
-                    <ArrowRight className="size-8 text-muted-foreground" />
-                    <div className="relative h-[280px] w-[280px] aspect-square flex-shrink-0 overflow-hidden rounded-full border-2 border-border shadow-lg bg-background transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:border-primary/50 cursor-pointer">
+                    <ArrowRight className="size-6 sm:size-8 text-muted-foreground flex-shrink-0" />
+                    <div className="relative h-[200px] w-[200px] sm:h-[280px] sm:w-[280px] aspect-square flex-shrink-0 overflow-hidden rounded-full border-2 border-border shadow-lg bg-background transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:border-primary/50 cursor-pointer">
                       <img
                         src="/images/list/post-2-crop.png"
                         alt="Example 2 cropped"
