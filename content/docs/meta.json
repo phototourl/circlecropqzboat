@@ -1,10 +1,13 @@
 {
-  "title": "Framework",
-  "description": "The docs framework",
-  "icon": "Building2",
+  "title": "Documentation",
+  "description": "Circle Crop Image documentation and guides",
+  "icon": "Book",
   "root": true,
   "pages": [
-    "---Introduction---",
+    "---Circle Crop Tool---",
+    "circle-crop-guide",
+    "circle-crop-faq",
+    "---Framework---",
     "index",
     "what-is-fumadocs",
     "comparisons",

@@ -1,10 +1,13 @@
 {
-  "title": "Framework",
-  "description": "The docs framework",
-  "icon": "Building2",
+  "title": "文档",
+  "description": "圆形图片裁剪工具文档和指南",
+  "icon": "Book",
   "root": true,
   "pages": [
-    "---介绍---",
+    "---圆形裁剪工具---",
+    "circle-crop-guide",
+    "circle-crop-faq",
+    "---框架---",
     "index",
     "what-is-fumadocs",
     "comparisons",

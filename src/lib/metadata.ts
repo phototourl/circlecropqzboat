@@ -44,6 +44,9 @@ export function constructMetadata({
         ? { canonical: canonicalUrl }
         : undefined;
 
+  // Google Search Console verification
+  const googleSiteVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
+
   return {
     title,
     description,
@@ -71,6 +74,11 @@ export function constructMetadata({
     },
     metadataBase: new URL(getBaseUrl()),
     manifest: '/manifest.webmanifest',
+    ...(googleSiteVerification && {
+      verification: {
+        google: googleSiteVerification,
+      },
+    }),
     ...(noIndex && {
       robots: {
         index: false,
