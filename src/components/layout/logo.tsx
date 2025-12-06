@@ -9,7 +9,7 @@ import { useEffect, useState } from 'react';
 export function Logo({ className }: { className?: string }) {
   const { theme, resolvedTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  const logoLight = websiteConfig.metadata.images?.logoLight ?? '/circle-crop-logo.png';
+  const logoLight = websiteConfig.metadata.images?.logoLight ?? '/favicon.png';
   const logoDark = websiteConfig.metadata.images?.logoDark ?? logoLight;
 
   // During server-side rendering and initial client render, always use logoLight

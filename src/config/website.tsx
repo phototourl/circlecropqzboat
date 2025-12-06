@@ -21,8 +21,8 @@ export const websiteConfig: WebsiteConfig = {
   metadata: {
     images: {
       ogImage: '/og.png',
-      logoLight: '/circle-crop-logo.png',
-      logoDark: '/circle-crop-logo.png',
+      logoLight: '/favicon.png',
+      logoDark: '/favicon.png',
     },
     social: {
       github: 'https://github.com/qzboat',

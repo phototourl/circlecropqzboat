@@ -4,7 +4,7 @@ import Image from 'next/image';
 export function MkSaaSLogo({ className }: { className?: string }) {
   return (
     <Image
-      src="/circle-crop-logo.png"
+      src="/favicon.png"
       alt="Logo of Circle Crop Image"
       title="Logo of Circle Crop Image"
       width={96}
