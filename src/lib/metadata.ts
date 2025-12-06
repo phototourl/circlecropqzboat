@@ -68,9 +68,9 @@ export function constructMetadata({
       site: getBaseUrl(),
     },
     icons: {
-      icon: '/qzboatlogo.png',
-      shortcut: '/qzboatlogo.png',
-      apple: '/qzboatlogo.png',
+      icon: '/favicon.png',
+      shortcut: '/favicon.png',
+      apple: '/favicon.png',
     },
     metadataBase: new URL(getBaseUrl()),
     manifest: '/manifest.webmanifest',
