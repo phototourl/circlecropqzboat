@@ -70,6 +70,7 @@ export interface SocialConfig {
   instagram?: string;
   tiktok?: string;
   telegram?: string;
+  google?: string;
 }
 
 /**

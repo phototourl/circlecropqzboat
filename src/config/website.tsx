@@ -5,7 +5,7 @@ import type { WebsiteConfig } from '@/types';
  * website config, without translations
  *
  * docs:
- * https://mksaas.com/docs/config/website
+ * https://www.qzboat.com/docs/config/website
  */
 export const websiteConfig: WebsiteConfig = {
   ui: {
@@ -25,13 +25,14 @@ export const websiteConfig: WebsiteConfig = {
       logoDark: '/qzboatlogo.png',
     },
     social: {
-      github: 'https://github.com/MkSaaSHQ',
-      twitter: 'https://mksaas.link/twitter',
-      blueSky: 'https://mksaas.link/bsky',
-      discord: 'https://mksaas.link/discord',
-      mastodon: 'https://mksaas.link/mastodon',
-      linkedin: 'https://mksaas.link/linkedin',
-      youtube: 'https://mksaas.link/youtube',
+      github: 'https://github.com/qzboat',
+      twitter: 'https://www.qzboat.com/twitter',
+      blueSky: 'https://www.qzboat.com/bsky',
+      discord: 'https://www.qzboat.com/discord',
+      mastodon: 'https://www.qzboat.com/mastodon',
+      linkedin: 'https://www.qzboat.com/linkedin',
+      youtube: 'https://www.qzboat.com/youtube',
+      google: 'https://www.google.com',
     },
   },
   features: {
@@ -80,8 +81,8 @@ export const websiteConfig: WebsiteConfig = {
   },
   mail: {
     provider: 'resend',
-    fromEmail: 'MkSaaS <support@mksaas.com>',
-    supportEmail: 'MkSaaS <support@mksaas.com>',
+    fromEmail: '青舟 <support@qzboat.com>',
+    supportEmail: '青舟 <support@qzboat.com>',
   },
   newsletter: {
     enable: true,

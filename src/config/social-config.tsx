@@ -4,6 +4,7 @@ import { BlueskyIcon } from '@/components/icons/bluesky';
 import { DiscordIcon } from '@/components/icons/discord';
 import { FacebookIcon } from '@/components/icons/facebook';
 import { GitHubIcon } from '@/components/icons/github';
+import { GoogleIcon } from '@/components/icons/google';
 import { InstagramIcon } from '@/components/icons/instagram';
 import { LinkedInIcon } from '@/components/icons/linkedin';
 import { MastodonIcon } from '@/components/icons/mastodon';
@@ -21,7 +22,7 @@ import { websiteConfig } from './website';
  * NOTICE: used in client components only
  *
  * docs:
- * https://mksaas.com/docs/config/social
+ * https://www.qzboat.com/docs/config/social
  *
  * @returns The social config
  */
@@ -113,6 +114,14 @@ export function useSocialLinks(): MenuItem[] {
       title: 'Telegram',
       href: websiteConfig.metadata.social.telegram,
       icon: <TelegramIcon className="size-4 shrink-0" />,
+    });
+  }
+
+  if (websiteConfig.metadata.social?.google) {
+    socialLinks.push({
+      title: 'Google',
+      href: websiteConfig.metadata.social.google,
+      icon: <GoogleIcon className="size-4 shrink-0" />,
     });
   }
 
