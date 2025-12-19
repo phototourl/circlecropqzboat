@@ -18,8 +18,8 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
   return (
     <footer className={cn('border-t', className)}>
       <Container className="px-4">
-        <div className="grid grid-cols-2 gap-8 py-16 md:grid-cols-6">
-          <div className="flex flex-col items-start col-span-full md:col-span-2">
+        <div className="grid grid-cols-2 gap-6 py-16 lg:grid-cols-7">
+          <div className="flex flex-col items-start col-span-full lg:col-span-2">
             <div className="space-y-4">
               {/* logo and name */}
               <div className="items-center space-x-2 flex">
@@ -60,7 +60,7 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
           {footerLinks?.map((section) => (
             <div
               key={section.title}
-              className="col-span-1 md:col-span-1 items-start"
+              className="col-span-1 lg:col-span-1 items-start"
             >
               <span className="text-sm font-semibold uppercase">
                 {section.title}
@@ -87,7 +87,7 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
       </Container>
 
       {/* Photo to URL Badge */}
-      <div className="border-t py-4">
+      <div className="py-4">
         <Container className="px-4">
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a
@@ -95,25 +95,12 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
               target="_blank"
               rel="noreferrer"
               className="inline-block transition-transform hover:scale-105 rounded-lg overflow-hidden shadow-md"
-              style={{
-                width: '200px',
-                height: '54px',
-                backgroundImage: 'url(https://phototourl.com/og-image.png)',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                position: 'relative',
-              }}
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-teal-600/80 to-teal-500/80 flex items-center gap-2 px-3">
-                <div className="flex flex-col justify-center min-w-0">
-                  <div className="text-white font-bold text-sm leading-tight whitespace-nowrap drop-shadow-md">
-                    phototourl.com
-                  </div>
-                  <div className="text-white/95 text-[10px] leading-tight whitespace-nowrap drop-shadow-md">
-                    FREE IMAGE HOSTING
-                  </div>
-                </div>
-              </div>
+              <img
+                src="https://phototourl.com/og-image.png"
+                alt="Photo to URL"
+                className="h-12 w-auto min-w-[280px]"
+              />
             </a>
           </div>
         </Container>

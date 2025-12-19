@@ -23,11 +23,6 @@ export function useFooterLinks(): NestedMenuItem[] {
       title: t('product.title'),
       items: [
         {
-          title: 'Photo to URL',
-          href: 'https://phototourl.com',
-          external: true,
-        },
-        {
           title: t('product.items.features'),
           href: Routes.Features,
           external: false,
