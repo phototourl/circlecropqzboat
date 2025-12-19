@@ -39,19 +39,21 @@ export default function HeroSection() {
           <div className="relative pt-12">
               <div className="mx-auto max-w-7xl px-6">
               <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
-                {/* introduction */}
+                {/* Photo to URL Badge */}
                 <div>
                   <a
-                    href={linkIntroduction}
+                    href="https://phototourl.com"
                     target="_blank"
-                    rel="noreferrer noopener"
-                    className="hover:bg-primary/10 group mx-auto flex w-fit items-center gap-2 rounded-full border border-primary/20 bg-primary/5 p-1 pl-4 transition-colors"
+                    rel="noopener noreferrer"
+                    className="hover:scale-105 mx-auto flex w-fit items-center transition-transform"
                   >
-                    <span className="text-primary text-sm font-medium">
-                      {t('introduction')}
-                    </span>
-
-                    <ArrowRight className="size-4 text-primary transition-transform group-hover:translate-x-1" />
+                    <img
+                      src="/badge-phototourl.svg"
+                      alt="Photo to URL"
+                      width={250}
+                      height={54}
+                      className="h-8 w-auto"
+                    />
                   </a>
                 </div>
 

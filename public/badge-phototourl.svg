@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250" height="54" viewBox="0 0 250 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect stroke="#d8d8d8" stroke-width="1" fill="#fff" x="0.5" y="0.5" width="249" height="53" rx="8"></rect>
+        
+        <!-- Camera icon -->
+        <g transform="translate(8, 8)">
+            <g transform="translate(1, 1)">
+                <!-- Camera body -->
+                <rect x="4" y="8" width="28" height="20" rx="2" fill="#14b8a6"></rect>
+                <!-- Lens -->
+                <circle cx="18" cy="18" r="7" fill="white"></circle>
+                <circle cx="18" cy="18" r="5" fill="#14b8a6" opacity="0.2"></circle>
+                <circle cx="18" cy="18" r="3" fill="#14b8a6" opacity="0.4"></circle>
+                <!-- Viewfinder -->
+                <rect x="12" y="4" width="12" height="5" rx="1" fill="#14b8a6"></rect>
+                <!-- Flash -->
+                <rect x="26" y="10" width="5" height="4" rx="0.5" fill="#14b8a6" opacity="0.7"></rect>
+            </g>
+        </g>
+        
+        <!-- Main text: Photo to URL -->
+        <text font-family="Helvetica-Bold, Helvetica" font-size="18" font-weight="bold" fill="#000">
+            <tspan x="60" y="30">Photo to URL</tspan>
+        </text>
+        
+        <!-- Subtitle: www.phototourl.com -->
+        <text font-family="Helvetica-Bold, Helvetica" font-size="9" font-weight="bold" font-style="" fill="#888">
+            <tspan x="60" y="42">www.phototourl.com</tspan>
+        </text>
+        
+        <!-- Arrow icon on the right -->
+        <g transform="translate(208,15)" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+            <polyline points="17 6 23 6 23 12"></polyline>
+        </g>
+    </g>
+</svg>

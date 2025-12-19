@@ -86,26 +86,6 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
         </div>
       </Container>
 
-      {/* Photo to URL Badge */}
-      <div className="py-4">
-        <Container className="px-4">
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            <a
-              href="https://phototourl.com"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-block transition-transform hover:scale-105 rounded-lg overflow-hidden shadow-md"
-            >
-              <img
-                src="https://phototourl.com/og-image.png"
-                alt="Photo to URL"
-                className="h-12 w-auto min-w-[280px]"
-              />
-            </a>
-          </div>
-        </Container>
-      </div>
-
       <div className="border-t py-8">
         <Container className="px-4 flex items-center justify-between gap-x-4">
           <span className="text-muted-foreground text-sm">
@@ -114,6 +94,20 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
           </span>
 
           <div className="flex items-center gap-x-4">
+            <a
+              href="https://phototourl.com"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="/badge-phototourl.svg"
+                alt="Photo to URL"
+                width={250}
+                height={54}
+                className="h-6 w-auto"
+              />
+            </a>
             <ModeSwitcherHorizontal />
           </div>
         </Container>
