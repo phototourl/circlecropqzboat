@@ -86,6 +86,39 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
         </div>
       </Container>
 
+      {/* Photo to URL Badge */}
+      <div className="border-t py-4">
+        <Container className="px-4">
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            <a
+              href="https://phototourl.com"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105 rounded-lg overflow-hidden shadow-md"
+              style={{
+                width: '200px',
+                height: '54px',
+                backgroundImage: 'url(https://phototourl.com/og-image.png)',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                position: 'relative',
+              }}
+            >
+              <div className="absolute inset-0 bg-gradient-to-r from-teal-600/80 to-teal-500/80 flex items-center gap-2 px-3">
+                <div className="flex flex-col justify-center min-w-0">
+                  <div className="text-white font-bold text-sm leading-tight whitespace-nowrap drop-shadow-md">
+                    phototourl.com
+                  </div>
+                  <div className="text-white/95 text-[10px] leading-tight whitespace-nowrap drop-shadow-md">
+                    FREE IMAGE HOSTING
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </Container>
+      </div>
+
       <div className="border-t py-8">
         <Container className="px-4 flex items-center justify-between gap-x-4">
           <span className="text-muted-foreground text-sm">

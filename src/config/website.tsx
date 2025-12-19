@@ -25,8 +25,8 @@ export const websiteConfig: WebsiteConfig = {
       logoDark: '/favicon.png',
     },
     social: {
-      github: 'https://github.com/qzboat',
-      twitter: 'https://www.qzboat.com/twitter',
+      github: 'https://github.com/phototourl',
+      twitter: 'https://x.com/phototourl',
       blueSky: 'https://www.qzboat.com/bsky',
       discord: 'https://www.qzboat.com/discord',
       mastodon: 'https://www.qzboat.com/mastodon',

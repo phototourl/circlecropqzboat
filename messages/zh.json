@@ -478,6 +478,9 @@
           "privacyPolicy": "隐私政策",
           "termsOfService": "服务条款"
         }
+      },
+      "relatedProducts": {
+        "title": "相关产品"
       }
     },
     "avatar": {

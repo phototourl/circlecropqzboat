@@ -23,6 +23,11 @@ export function useFooterLinks(): NestedMenuItem[] {
       title: t('product.title'),
       items: [
         {
+          title: 'Photo to URL',
+          href: 'https://phototourl.com',
+          external: true,
+        },
+        {
           title: t('product.items.features'),
           href: Routes.Features,
           external: false,
@@ -109,6 +114,31 @@ export function useFooterLinks(): NestedMenuItem[] {
           title: t('legal.items.termsOfService'),
           href: Routes.TermsOfService,
           external: false,
+        },
+      ],
+    },
+    {
+      title: t('relatedProducts.title'),
+      items: [
+        {
+          title: 'Image to URL',
+          href: 'https://www.image2url.com',
+          external: true,
+        },
+        {
+          title: 'Photo to URL',
+          href: 'https://phototourl.com',
+          external: true,
+        },
+        {
+          title: 'Circle Crop Image',
+          href: 'https://circlecropimage.qzboat.com',
+          external: true,
+        },
+        {
+          title: 'Discord Wrapped',
+          href: 'https://discordwarpped.qzboat.com',
+          external: true,
         },
       ],
     },
